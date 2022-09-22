@@ -1,0 +1,27 @@
+###请在最大电脑窗口查看--避免文件结构说明.txt 格式换行
+环境搭建：程序是jupyter notebook基于python3.9编译器搭建交互计算的应用程序，
+                和相关科学计算库（如pandas、numpy、sklearn、matpotlib等）配合使用，
+                其可被应用于全过程计算：开发、文档编写、运行代码和展示结果。
+
+文件结构：1.程序
+                 2.数据
+                 3.引用文献
+                 4.文件结构说明.txt
+
+文件类型说明：xxxxx.xlsx  为excel数据表-- 该类文件存放在 2.数据中
+		         1.第一问结果分别保存在  1-2统计规律.xlsx    风化预测.xlsx
+		         2.其他为论文求解步骤‘数据预处理’过程中的数据文件，这类文件会在代码运行中调用。
+
+	             xxxxx.ipynb  为Python语言编写的源代码文件--该类文件存放在 1.程序中
+		         打开方式：1.GitHub 中可以直接打开 .ipynb 文件。
+			               2.可以把 .ipynb 文件对应的下载链接复制到 https://nbviewer.jupyter.org/ 中查看。
+                                             3.安装 Anaconda，从开始菜单中打开 jupyter notebook 的快捷方式（prompt 中用该命令打开同理）
+			               4.在python环境下，打开cmd命令窗口，切换在程序所在路径下，输入jupyter notebook（如果无jupyter，
+                                                 请使用pip install jupyter命令进行安装)
+                       问题四SPSS交互指令.txt  为SPSS软件的交互指令--该类文件存放在 1.程序中
+                                        1.此文件为问题四的求解
+                       xxxxx.PDF   为论文的引用文献--该类文件存放在  3.引用文献中
+                     
+                             
+
+
